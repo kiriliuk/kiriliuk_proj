@@ -1,0 +1,85 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.wh {
+    background-color: white;
+}
+
+.gr {
+    background-color: #F6F6F6;
+}
+
+.wh, .gr {
+    min-height: 300px;
+    height: 100%;
+}
+
+.topic {
+    padding-top: 40px;
+    text-align: center;
+}
+
+
+.leftimg {
+    width: 250px ;
+    height: 320px ;
+    float:left;
+    margin: 4px 10px 2px 0px;
+    padding:6px;
+}
+
+.wrapForFloat {
+    display: flex;
+    justify-content: center;
+}
+
+.imgWithFloat {
+    width: 80%;
+}
+.imgsGroup {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.wrap {
+    text-align: center;
+    padding-left: 30px;
+}
+
+.imgsGroup img:nth-child(n) {
+	order: 1;
+}
+.imgsGroup p:nth-child(n) {
+	order: 2;
+}
+
+.threeImgs{
+    justify-content: space-around;
+}
+
+.imgsGroup2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.imgsGroup2 p {
+    padding-left: 5%;
+    width: 40%;
+}
+.img-wrap {
+    position: relative;
+  }
+  
+  .img-wrap h1 {
+    position: absolute;
+    left: 50px;
+    bottom: 250px;
+    width: 100%;
+  }
+  .h1main{
+      color: #F6F6F6;
+  }
